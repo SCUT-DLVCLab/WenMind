@@ -4,7 +4,7 @@ WenMind is a comprehensive benchmark dedicated for evaluating Large Language Mod
 
 ## Download
 
-You can obtain the complete WenMind evaluation dataset from WenMind Benchmark folder on GitHub.
+You can obtain the complete WenMind evaluation dataset from **WenMind Benchmark folder** on GitHub.
 
 ## Data Format
 ```
