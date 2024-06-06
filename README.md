@@ -2,11 +2,11 @@
 
 WenMind is a comprehensive benchmark dedicated for evaluating Large Language Models (LLMs) in Chinese Classical Literature and Language Arts (CCLLA). WenMind covers the sub-domains of **Ancient Prose**, **Ancient Poetry**, and **Ancient Literary Culture**, comprising 4,875 question-answer pairs, spanning 42 fine-grained tasks, 3 question formats, and 2 evaluation scenarios: domain-oriented and capability-oriented.
 
-# Download
+## Download
 
 You can obtain the complete WenMind evaluation dataset from WenMind Benchmark folder on GitHub.
 
-# Data Format
+## Data Format
 ```
   {
     "id": 2464,
@@ -22,11 +22,11 @@ You can obtain the complete WenMind evaluation dataset from WenMind Benchmark fo
   }
 ```
 
-# TODO
+## TODO
 
 We will soon release the code for model evaluation.
 
-# License
+## License
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
