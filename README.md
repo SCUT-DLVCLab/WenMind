@@ -25,6 +25,7 @@ You can obtain the complete WenMind evaluation dataset from **WenMind Benchmark 
 ## TODO
 
 We will soon release the code for model evaluation.
+We are about to complete the README content.
 
 ## License
 
