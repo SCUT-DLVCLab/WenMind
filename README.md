@@ -353,6 +353,18 @@ We will soon release the code for model evaluation.
 
 We are about to complete the README content.
 
+## Acknowledgement
+
+- [SCUT-C2MChn](https://github.com/Zongyuan-Jiang/C2MChn)
+- [WYWEB](https://github.com/baudzhou/WYWEB)
+- [Daizhige](https://github.com/garychowcmu/daizhigev20)
+- [ACLUE](https://github.com/isen-zhang/ACLUE)
+- [Websites-A Related to Ancient Poetry](http://ts300.5156edu.com/)
+- [Websites-B Related to Ancient Poetry](https://www.gushixuexi.com/)
+- [Sou Yun](https://www.sou-yun.cn/)
+- [THU-FSPC](https://github.com/THUNLP-AIPoet/Datasets)
+- [Han Dian](https://www.zdic.net/)
+
 ## License
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
