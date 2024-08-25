@@ -338,6 +338,15 @@ Table 1 provides the statistics of the WenMind dataset.
 
 </div>
 
+## Evaluation Result
+
+<p align="center">
+    <strong>Table 2: Results of all evaluated models on different domains and capabilities.</strong>
+<p>
+<p align="center">
+    <img src="https://github.com/SCUT-DLVCLab/WenMind/blob/main/Images/Evaluation_Result.png" width="750"/>
+<p>
+
 ## TODO
 
 We will soon release the code for model evaluation.
