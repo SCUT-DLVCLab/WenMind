@@ -35,7 +35,7 @@ You can obtain the complete WenMind evaluation dataset from **WenMind Benchmark 
 The construction pipeline of WenMind includes data collection and data processing, as illustrated in Figure 2.
 
 <p align="center">
-    <img src="https://github.com/SCUT-DLVCLab/WenMind/blob/main/Images/.png" width="800"/>
+    <img src="https://github.com/SCUT-DLVCLab/WenMind/blob/main/Images/Data_Construction.png" width="550"/>
 <p>
 
 <p align="center">
