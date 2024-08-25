@@ -30,6 +30,28 @@ You can obtain the complete WenMind evaluation dataset from **WenMind Benchmark 
   }
 ```
 
+The following is an explanation of the various fields in the data samples:
+
+- **`id`**: The unique identifier for the data sample, used to distinguish different samples.
+
+- **`domain`**: The domain to which the data sample belongs, including ancient prose, ancient poetry and ancient literary culture.
+
+- **`capability`**: The type of capability of the data sample, including knowledge, understanding and generation.
+
+- **`question_format`**: The format of the question, indicating the type of question in the sample, including FB, MCQ and QA.
+
+- **`coarse_grained_task_zh`**: The Chinese name of the coarse-grained task classification. Describes the coarse-grained task category of the sample, with a total of 26 categories.
+
+- **`coarse_grained_task_en`**: The English name of the coarse-grained task classification. Corresponds to **`coarse_grained_task_zh`**, describing the coarse-grained task category of the sample, with a total of 26 categories.
+
+- **`fine_grained_task_zh`**: The Chinese name of the fine-grained task classification. Describes the fine-grained task category of the sample, with a total of 42 categories.
+
+- **`fine_grained_task_en`**: The English name of the fine-grained task classification. Corresponds to **`fine_grained_task_zh`**, describing the fine-grained task category of the sample, with a total of 42 categories.
+
+- **`question`**: The actual content of the question. The question to be answered in the sample.
+
+- **`answer`**: The answer to the corresponding question. Provides a detailed response to the question.
+
 ## Data Construction
 
 The construction pipeline of WenMind includes data collection and data processing, as illustrated in Figure 2.
