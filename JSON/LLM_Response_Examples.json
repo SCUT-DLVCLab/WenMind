@@ -1,0 +1,44 @@
+[
+  {
+     "id": 0,
+     "domain": "ancient prose",
+     "capability": "understanding",
+     "question_format": "MCQ",
+     "coarse_grained_task_zh": "虚词",
+     "coarse_grained_task_en": "function words",
+     "fine_grained_task_zh": "虚词",
+     "fine_grained_task_en": "function words",
+     "question": "孰为汝多知乎。上面句子中“为”的用法是：\nA、动词，做  B、动词，成为  C、动词，担任  D、通\"谓\"，可译为\"说\"",
+     "answer": "D",
+     "LLM_name": "LLM_name",
+     "LLM_response": "D、通\"谓\"，可译为\"说\""
+  },
+  {
+     "id": 1,
+     "domain": "ancient prose",
+     "capability": "understanding",
+     "question_format": "MCQ",
+     "coarse_grained_task_zh": "虚词",
+     "coarse_grained_task_en": "function words",
+     "fine_grained_task_zh": "虚词",
+     "fine_grained_task_en": "function words",
+     "question": "位卑则足羞，官盛则近谀。上面句子中“则”的用法是：\nA、连词，表示承接关系  B、连词，表示假设关系  C、连词，表示并列关系  D、连词，表示转折、让步关系",
+     "answer": "C",
+     "LLM_name": "LLM_name",
+     "LLM_response": "A、连词，表示承接关系"
+  },
+  {
+     "id": 2,
+     "domain": "ancient prose",
+     "capability": "understanding",
+     "question_format": "MCQ",
+     "coarse_grained_task_zh": "虚词",
+     "coarse_grained_task_en": "function words",
+     "fine_grained_task_zh": "虚词",
+     "fine_grained_task_en": "function words",
+     "question": "青，取之于蓝，而青于蓝。上面句子中“之”的用法是：\nA、连词，表示并列关系  B、连词，表示递进关系  C、连词，表示转折关系  D、连词，表示修饰关系",
+     "answer": "C",
+     "LLM_name": "LLM_name",
+     "LLM_response": "D、连词，表示修饰关系"
+  }
+]
