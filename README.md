@@ -338,6 +338,43 @@ Table 1 provides the statistics of the WenMind dataset.
 
 </div>
 
+
+## Inference
+
+### Open-source Model
+
+For open-source models, we perform inference locally, only requiring the model path and the output file path for the answers.
+
+```
+--model_path The path to the model, defaults to loading from huggingface
+--output_path The file path for the model's answer output, defaults to {model_name}_result.json
+```
+
+e.g.
+
+```
+CUDA_VISIBLE_DEVICES=0,1 python Evaluation_Code/Inference/test_Baichuan2-7b-Chat.py \  
+    --model_path baichuan-inc/Baichuan2-7B-Chat \  
+    --output_path Baichuan2-7B-Chat_result.json
+```
+
+### API Model
+
+For GPT-3.5 and GPT-4 models, provide two parameters: `api_base` and `api_key`.  
+For ERNIE-3.5 and ERNIE-4.0 models, provide two parameters: `api_key` and `secret_key`.  
+For Spark models, provide three parameters: `api_key`, `secret_key`, and `appid`.  
+Refer to the official documentation of each API model for details.  
+
+e.g.
+
+```
+python test_ERNIE3.5.py \
+    --API_KEY {api_key} \
+    --SECRET_KEY {secret_key} \
+    --output_path {output_path}
+```
+
+
 ## Evaluation Result
 
 <p align="center">
