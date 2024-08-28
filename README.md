@@ -369,7 +369,7 @@ Refer to the official documentation of each API model for details.
 e.g.
 
 ```
-python Test_ERNIE-3.5.py \
+python Test_ERNIE-3.5-8K-0329.py \
     --API_KEY {api_key} \
     --SECRET_KEY {secret_key} \
     --output_path {output_path}
@@ -397,7 +397,6 @@ Step 3: Run the following command to obtain the model's score:
 ```
 python Evaluation_Code/Calculate_Score.py 
 ```
-
 ## Evaluation Result
 
 <p align="center">
