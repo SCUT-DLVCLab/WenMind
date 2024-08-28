@@ -338,10 +338,11 @@ Table 1 provides the statistics of the WenMind dataset.
 
 </div>
 
-
 ## Inference
 
-### Open-source Model
+### a. Obtain the model’s responses
+
+#### Open-source Model
 
 For open-source models, we perform inference locally, only requiring the model path and the output file path for the answers.
 
@@ -353,12 +354,12 @@ For open-source models, we perform inference locally, only requiring the model p
 e.g.
 
 ```
-CUDA_VISIBLE_DEVICES=0,1 python Evaluation_Code/Inference/test_Baichuan2-7b-Chat.py \  
+CUDA_VISIBLE_DEVICES=0,1 python Evaluation_Code/Inference/Test_Baichuan2-7B-Chat.py \  
     --model_path baichuan-inc/Baichuan2-7B-Chat \  
     --output_path Baichuan2-7B-Chat_result.json
 ```
 
-### API Model
+#### API Model
 
 For GPT-3.5 and GPT-4 models, provide two parameters: `api_base` and `api_key`.  
 For ERNIE-3.5 and ERNIE-4.0 models, provide two parameters: `api_key` and `secret_key`.  
@@ -368,12 +369,34 @@ Refer to the official documentation of each API model for details.
 e.g.
 
 ```
-python test_ERNIE3.5.py \
+python Test_ERNIE-3.5.py \
     --API_KEY {api_key} \
     --SECRET_KEY {secret_key} \
     --output_path {output_path}
 ```
+### b. Use ERNIE-3.5 to score the responses
 
+Step 1: Check whether the LLM response file is consistent with the format of the `JSON/LLM_Response_Examples.json` file.
+
+Step 2: Open the `Evaluation_Code/LLM_Scoring.py` file, input the `API_KEY` and `SECRET_KEY` for the scoring model ERNIE-3.5, replace `LLM_response_path` with the storage path of the LLM response file, replace `LLM_score_path` with the path where the scoring results will be saved, and replace `LLM_prompt_path` with the storage path of `JSON/Task_Score_Prompt.json`.
+
+Step 3: Run the following command to obtain the scoring results:
+
+```
+python Evaluation_Code/LLM_Scoring.py 
+```
+
+### c. Calculate the model’s score
+
+Step 1: Check whether the scoring file is consistent with the format of the `JSON/LLM_Score_Examples.json` file.
+
+Step 2: Open the `Evaluation_Code/Calculate_Score.py` file and replace `LLM_score_path` with the storage path of the scoring file.
+
+Step 3: Run the following command to obtain the model's score:
+
+```
+python Evaluation_Code/Calculate_Score.py 
+```
 
 ## Evaluation Result
 
@@ -383,12 +406,6 @@ python test_ERNIE3.5.py \
 <p align="center">
     <img src="https://github.com/SCUT-DLVCLab/WenMind/blob/main/Images/Evaluation_Result.png" width="750"/>
 <p>
-
-## TODO
-
-We will soon release the code for model evaluation.
-
-We are about to complete the README content.
 
 ## Acknowledgement
 
