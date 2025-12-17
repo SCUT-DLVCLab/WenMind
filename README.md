@@ -430,3 +430,8 @@ The work is licensed under a [MIT License](https://lbesson.mit-license.org/).
 ![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)
 
 The WenMind benchmark is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+**Important Notice:**
+
+The original data of this dataset are collected from publicly accessible sources such as the Internet, and the copyright remains with the original content providers. The curated and annotated dataset reported in this case is intended for non-commercial use only and is currently licensed exclusively to universities and research institutions. If you wish to apply for access to this dataset, please complete the required application form in accordance with the instructions provided on the dataset website. The signature section of the application must be signed by a full-time staff member of a university or research institute. Where possible, please affix an official institutional seal (a seal from a secondary-level unit is acceptable) to facilitate the review and approval process.
+
